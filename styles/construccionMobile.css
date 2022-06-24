@@ -1,0 +1,42 @@
+@media (max-width: 425px) {
+  .constructionBody {
+    padding-top: 25vw;
+  }
+  .constructionBody .titleConstruction {
+    font-size: 6vw;
+  }
+  .constructionBody .containerConstruction .fondoConstruction img {
+    width: 90vw;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction {
+    top: 46vw;
+    left: 3vw;
+    padding: 1vw 2vw;
+    border-radius: 2.8vw;
+    margin-bottom: 5vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction .logoW {
+    height: 7vw;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction p {
+    font-size: 4vw;
+    margin-left: 3vw;
+  }
+}
+/*# sourceMappingURL=construccionMobile.css.map */

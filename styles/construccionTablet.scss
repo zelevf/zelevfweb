@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+    .constructionBody {
+        padding-top: 15vw;
+    
+        .titleConstruction {
+          font-size: 4.5vw;
+        }
+    
+        .containerConstruction {
+        
+            .fondoConstruction {
+        
+              img {
+                width: 80vw;
+              }
+            }
+    
+            .container-redesConstruction {
+              display: flex;
+              flex-direction: row;
+              width: 70%;
+              text-align: center;
+              justify-content: space-around;
+        
+                .contactanosConstruction {
+                  top: 46vw;
+                  left: 3vw;
+                  padding: 1vw 2vw;
+                  border-radius: 2.8vw;
+            
+                  .logoW {
+                    height: 4vw;
+                  }
+            
+                  p {
+                    font-size: 2.6vw;
+                    margin-left: 1vw;
+                  }
+                }       
+            }
+        }
+    
+    
+    }
+}

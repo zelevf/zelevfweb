@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+  .constructionBody {
+    padding-top: 15vw;
+  }
+  .constructionBody .titleConstruction {
+    font-size: 4.5vw;
+  }
+  .constructionBody .containerConstruction .fondoConstruction img {
+    width: 80vw;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 70%;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction {
+    top: 46vw;
+    left: 3vw;
+    padding: 1vw 2vw;
+    border-radius: 2.8vw;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction .logoW {
+    height: 4vw;
+  }
+  .constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction p {
+    font-size: 2.6vw;
+    margin-left: 1vw;
+  }
+}
+/*# sourceMappingURL=construccionTablet.css.map */

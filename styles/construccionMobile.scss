@@ -1,0 +1,48 @@
+@media (max-width: 425px) {
+    .constructionBody {
+        padding-top: 25vw;
+    
+        .titleConstruction {
+          font-size: 6vw;
+        }
+    
+        .containerConstruction {
+        
+            .fondoConstruction {
+        
+              img {
+                width: 90vw;
+              }
+            }
+    
+            .container-redesConstruction {
+              display: flex;
+              flex-direction: column;
+              width: 70%;
+              text-align: center;
+              justify-content: space-around;
+        
+                .contactanosConstruction {
+                  top: 46vw;
+                  left: 3vw;
+                  padding: 1vw 2vw;
+                  border-radius: 2.8vw;
+                  margin-bottom: 5vw;
+                //   text-align: center;
+                  justify-content: center;
+            
+                  .logoW {
+                    height: 7vw;
+                  }
+            
+                  p {
+                    font-size: 4vw;
+                    margin-left: 3vw;
+                  }
+                }       
+            }
+        }
+    
+    
+    }
+}

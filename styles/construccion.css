@@ -1,0 +1,108 @@
+.constructionBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding-top: 3vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.constructionBody .titleConstruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.constructionBody .containerConstruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.constructionBody .containerConstruction .fondoConstruction {
+  position: relative;
+}
+
+.constructionBody .containerConstruction .fondoConstruction img {
+  padding: 0vw;
+  margin: 0vw;
+  position: relative;
+  width: 40vw;
+}
+
+.constructionBody .containerConstruction .container-redesConstruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 30%;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  top: 46vw;
+  left: 3vw;
+  cursor: pointer;
+  z-index: 5;
+  text-decoration: none;
+  background: rgba(55, 58, 64, 0.7);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5vw 1vw;
+  border-radius: 1.4vw;
+  border: 0.1vw solid #5c5a5a;
+  border: 0.1vw solid #bda43a;
+  -webkit-box-shadow: 0px 10px 26px -7px rgba(0, 0, 0, 0.38);
+          box-shadow: 0px 10px 26px -7px rgba(0, 0, 0, 0.38);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction .logoW {
+  height: 2vw;
+}
+
+.constructionBody .containerConstruction .container-redesConstruction .contactanosConstruction p {
+  font-size: 1vw;
+  margin-left: 0.5vw;
+  color: #ffffff;
+}
+
+.constructionBody .containerConstruction .container-redesConstruction .contactanos:hover {
+  background: rgba(55, 58, 64, 0.9);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background: black;
+}
+/*# sourceMappingURL=construccion.css.map */
